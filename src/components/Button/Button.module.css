@@ -1,0 +1,21 @@
+.btn {
+  color: var(--primary-bg-color);
+  font-size: 14px;
+  font-family: 'Roboto', Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  border-radius: 30px;
+  background-color: var(--accent-font-color);
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  box-shadow: 0px 34px 15px -19px rgba(121, 191, 252, 0.2);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--secondary-bg-color);
+  background-image: none;
+}

@@ -1,0 +1,68 @@
+.messCard {
+  width: 700px;
+  max-height: 460px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: var(--primary-bg-color);
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  box-shadow: 0px 1px 23px 5px rgba(163, 163, 163, 0.2);
+}
+
+.title {
+  color: var(--accent-font-color);
+  font-size: 20px;
+  font-family: 'Styrene', Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.pre {
+  height: 260px;
+  margin: 0;
+  padding: 0 10px;
+  border-radius: 5px;
+  background-color: #333333;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.code {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: 'Styrene', Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.codePytnon {
+  composes: code;
+  display: none;
+}
+
+.langList {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.langItem {
+  color: #333333;
+  font-size: 16px;
+  font-family: 'Styrene', Arial, sans-serif;
+  line-height: 1.55;
+  font-weight: 400;
+  background-position: center center;
+  border-color: transparent;
+  border-style: solid;
+  cursor: pointer;
+}

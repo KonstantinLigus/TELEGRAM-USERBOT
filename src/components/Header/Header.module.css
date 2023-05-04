@@ -1,0 +1,40 @@
+.navContainer {
+  display: flex;
+  gap: 80px;
+  margin-left: 250px;
+}
+
+.menuLink {
+  color: var(--primary-font-color);
+  line-height: 1.55;
+  font-weight: 400;
+  font-size: var(--m);
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+}
+
+.menuLink:hover {
+  color: var(--accent-font-color);
+}
+
+.navWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.linkFlag {
+  border: solid 1px var(--border-color);
+  border-radius: 50%;
+}
+
+.flagsWrapper {
+  display: flex;
+  gap: 10px;
+  margin-left: 25px;
+}
+
+.btnWrapper {
+  margin-left: 120px;
+}
