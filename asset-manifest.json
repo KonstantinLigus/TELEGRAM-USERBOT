@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/TELEGRAM-USERBOT/static/css/main.8a7e0283.css",
-    "main.js": "/TELEGRAM-USERBOT/static/js/main.57b21653.js",
+    "main.js": "/TELEGRAM-USERBOT/static/js/main.d204263c.js",
     "index.html": "/TELEGRAM-USERBOT/index.html",
     "main.8a7e0283.css.map": "/TELEGRAM-USERBOT/static/css/main.8a7e0283.css.map",
-    "main.57b21653.js.map": "/TELEGRAM-USERBOT/static/js/main.57b21653.js.map"
+    "main.d204263c.js.map": "/TELEGRAM-USERBOT/static/js/main.d204263c.js.map"
   },
   "entrypoints": [
     "static/css/main.8a7e0283.css",
-    "static/js/main.57b21653.js"
+    "static/js/main.d204263c.js"
   ]
 }
