@@ -29,7 +29,8 @@ curl \
 -X 'POST' \
 
 'https://userbot-api.tech/api/v1/telegram/send_message?
-chat_id=1234567890&message=Hello%20World%21' \ `;
+chat_id=1234567890&message=Hello%20World%21' \
+`;
 
   const curlClickHandler = e => {
     pythonLink.current.style.display = 'none';
