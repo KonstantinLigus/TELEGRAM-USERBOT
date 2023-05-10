@@ -1,0 +1,27 @@
+.containerWidth {
+  max-width: 1160px;
+  margin: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.containerCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: var(--accent-font-color);
+  font-size: var(--xxl);
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+.paragraf {
+  color: var(--primary-font-color);
+  font-size: var(--s);
+  line-height: var(--l);
+  font-weight: 400;
+}

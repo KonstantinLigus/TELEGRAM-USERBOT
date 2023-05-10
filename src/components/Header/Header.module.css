@@ -1,7 +1,6 @@
 .navContainer {
   display: flex;
   gap: 80px;
-  margin-left: 250px;
 }
 
 .menuLink {
@@ -20,8 +19,8 @@
 .navWrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 10px;
+  justify-content: space-evenly;
+  padding: 10px 0 0 0;
 }
 
 .linkFlag {
@@ -29,12 +28,8 @@
   border-radius: 50%;
 }
 
-.flagsWrapper {
+.wrapper {
   display: flex;
+  align-items: center;
   gap: 10px;
-  margin-left: 25px;
-}
-
-.btnWrapper {
-  margin-left: 120px;
 }

@@ -1,0 +1,42 @@
+.sectionMargin {
+  composes: containerWidth from '../../commonStyles.module.css';
+  margin-bottom: 100px;
+}
+
+.presentationTitle {
+  composes: title from '../../commonStyles.module.css';
+  margin-bottom: 50px;
+}
+
+.presentationTitleDiff {
+  composes: title from '../../commonStyles.module.css';
+  color: var(--border-color);
+}
+
+.table {
+  border-collapse: collapse;
+  border-radius: 8px;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
+}
+
+.tableHeadRow {
+  composes: paragraf from '../../commonStyles.module.css';
+  font-weight: 600;
+  color: var(--accent-font-color);
+  font-size: var(--m);
+  background-color: var(--table-color);
+  text-align: left;
+}
+
+.tableHead {
+  width: 450px;
+  padding: 20px;
+}
+
+.tableD {
+  composes: paragraf from '../../commonStyles.module.css';
+  color: var(--accent-font-color);
+  text-align: left;
+  width: 260px;
+  padding: 20px;
+}

@@ -1,0 +1,5 @@
+.bgRing {
+  position: absolute;
+  bottom: 0;
+  border: solid 1px var(--secondary-bg-color);
+}

@@ -45,33 +45,33 @@ export const Header = () => (
           </a>
         </li>
       </ul>
-      <div className={headerStyles.btnWrapper}>
+      <div className={headerStyles.wrapper}>
         <Button height="40px" width="160px">
           Личный кабинет
         </Button>
+        <ul className={headerStyles.wrapper}>
+          <li>
+            <a href="https://userbot-api.tech/">
+              <img
+                src="https://thumb.tildacdn.com/tild3931-6435-4235-a634-616435663339/-/cover/25x25/center/center/-/format/webp/Flag_of_Russiasvg.png"
+                alt="rusFlag"
+                width="25px"
+                className={headerStyles.linkFlag}
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://userbot-api.tech/eng">
+              <img
+                src="https://thumb.tildacdn.com/tild6130-6632-4665-b430-633237653564/-/cover/25x25/center/center/-/format/webp/Flag_of_the_United_K.png"
+                alt="rusFlag"
+                width="25px"
+                className={headerStyles.linkFlag}
+              />
+            </a>
+          </li>
+        </ul>
       </div>
-      <ul className={headerStyles.flagsWrapper}>
-        <li>
-          <a href="https://userbot-api.tech/">
-            <img
-              src="https://thumb.tildacdn.com/tild3931-6435-4235-a634-616435663339/-/cover/25x25/center/center/-/format/webp/Flag_of_Russiasvg.png"
-              alt="rusFlag"
-              width="25px"
-              className={headerStyles.linkFlag}
-            />
-          </a>
-        </li>
-        <li>
-          <a href="https://userbot-api.tech/eng">
-            <img
-              src="https://thumb.tildacdn.com/tild6130-6632-4665-b430-633237653564/-/cover/25x25/center/center/-/format/webp/Flag_of_the_United_K.png"
-              alt="rusFlag"
-              width="25px"
-              className={headerStyles.linkFlag}
-            />
-          </a>
-        </li>
-      </ul>
     </nav>
   </header>
 );

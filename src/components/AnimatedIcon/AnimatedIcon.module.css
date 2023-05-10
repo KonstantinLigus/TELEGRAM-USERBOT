@@ -1,0 +1,18 @@
+.animation {
+  position: absolute;
+  animation: 3s linear infinite animIcon;
+}
+
+@keyframes animIcon {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  50% {
+    transform: translate(10px, 0) scale(1.2);
+  }
+
+  100% {
+    transform: translate(10px, 0) scale(1);
+  }
+}

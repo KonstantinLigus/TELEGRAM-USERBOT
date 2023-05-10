@@ -1,0 +1,63 @@
+.sectionWrapper {
+  composes: containerWidth from '../../commonStyles.module.css';
+  composes: containerCenter from '../../commonStyles.module.css';
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.animatedIconsWrapp {
+  position: absolute;
+  right: 30px;
+  bottom: 0;
+  z-index: 1;
+}
+
+.TgUserBotApiTitle {
+  composes: title from '../../commonStyles.module.css';
+}
+
+.subTitle {
+  margin-bottom: 30px;
+  color: var(--primary-font-color);
+  font-size: var(--l);
+  line-height: 1.35;
+  font-weight: 700;
+}
+
+.paragraf {
+  composes: paragraf from '../../commonStyles.module.css';
+  margin-bottom: 30px;
+}
+
+.list {
+  margin-bottom: 30px;
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.listItem:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.paragrafAccent {
+  composes: paragraf from '../../commonStyles.module.css';
+  font-weight: 600;
+}
+
+.paragrafAccentPart {
+  composes: paragraf from '../../commonStyles.module.css';
+  font-weight: 600;
+  color: var(--accent-font-color);
+}
+
+.bgImg {
+  position: relative;
+}

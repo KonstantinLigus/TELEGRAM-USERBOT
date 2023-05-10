@@ -1,0 +1,32 @@
+.secWrap {
+  margin-top: 100px;
+  background-color: #f2f8fd;
+}
+
+.containerUserBot {
+  composes: containerWidth from '../../commonStyles.module.css';
+  composes: containerCenter from '../../commonStyles.module.css';
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.userBot {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--accent-font-color);
+  line-height: 1.23;
+}
+
+.text {
+  font-weight: 300;
+  font-family: Roboto;
+  line-height: 1.55;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+}
+
+.WrapperText {
+  margin-right: 50px;
+}
